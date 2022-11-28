@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Page </title>
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body>
+<center> <h1> OAES Login Form </h1> </center>
+<form id="loginForm">
+    <div class="container">
+        <div class="formCentre">
+
+            <div>
+                <label for="loginType">Choose Login Type: </label>
+                <select name="loginType" id="loginType" form="loginForm">
+                    <option value="examAdmin">Exam Admin</option>
+                    <option value="itemAuthor">Item Author</option>
+                </select>
+            </div>
+            <div id="username" class="userNameDiv">
+                <label for="username">Username : </label>
+                <input type="text" placeholder="Enter Username" name="username" id="username1" required/>
+            </div>
+            <div id="password" class="passWordDiv">
+                <label for="password">Password : </label>
+                <input type="password" placeholder="Enter Password" name="password" id="password1" required/>
+            </div>
+            <div>
+                <button type="button" onclick="login()">Login</button>
+            </div>
+
+        </div>
+    </div>
+</form>
+</body>
+<script src="javascript/main.js"></script>
+</html>

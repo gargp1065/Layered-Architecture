@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Admin Dashboard </title>
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body>
+<center> <h1> Admin Dashboard </h1> </center>
+<form id="loginForm">
+    <div class="container">
+        <div class="formCentre">
+
+            <div>
+                <label for="adminOperation">Choose Operation: </label>
+                <select name="loginType" id="adminOperation" form="loginForm">
+                    <option value="addItem">Add Item</option>
+                    <option value="addAuthor">Add Author</option>
+                </select>
+            </div>
+            <div>
+                <button type="button" onclick="adminDashboard()">Apply</button>
+            </div>
+
+        </div>
+    </div>
+</form>
+</body>
+<script src="javascript/main.js"></script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Generate Question Paper </title>
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body>
+<center> <h1> Generate Question Paper </h1> </center>
+<form id="loginForm">
+    <div class="container">
+        <div class="formCentre">
+            <div id="username" class="userNameDiv">
+                <label for="subject1">Subject : </label>
+                <input type="text" placeholder="Enter Subject" name="subject" id="subject1" required/>
+            </div>
+            <div id="password" class="passWordDiv">
+                <label for="count1">Count : </label>
+                <input type="text" placeholder="Enter Count" name="count" id="count1" required/>
+            </div>
+            <div>
+                <button type="button" onclick="viewQuestionPaper()">Fetch</button>
+            </div>
+
+        </div>
+    </div>
+</form>
+</body>
+<script src="javascript/main.js"></script>
+</html>
